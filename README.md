@@ -1,20 +1,14 @@
 # FinalUnitTest
 
 @ExtendWith(MockitoExtension.class)
-
 public class SignalsServiceTest {
-
     private static final Integer ID = 1;
-
     @Mock
     SignalsRepository signalsRepository;
-
     @Mock
     SignalDefinitionsRepository signalDefinitionsRepository;
-
     @Mock
     SignalDefinitionsMapper signalDefinitionsMapper;
-
     @InjectMocks
     SignalsServiceImpl signalsService;
 
